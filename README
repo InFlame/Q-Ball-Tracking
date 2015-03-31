@@ -1,0 +1,17 @@
+* This is an example of how to create your own module toolbox
+  for OpenWalnut (http://www.openwalnut.org).
+
+* You should have a look at our WIKI for further details under
+  http://www.openwalnut.org/projects/openwalnut/wiki/Module_ExternalDevelopment
+
+* It basically creates one library with two modules in it.
+  You can use this example as your basic development setup
+  and extend it as you need.
+
+* Please contact us if you have trouble or if you have added
+  platform support to the OpenWalnut.cmake script. We 
+  appreciate your help!
+
+
+Happy coding!
+- The OpenWalnut Team -

@@ -1,0 +1,18 @@
+# OW Version File. This file specifies the version. The line VERSION=X.Y.Z is
+# used and parsed. This file has to be here everytime. The VERSION needs to be
+# set properly or CMake will fail.
+#
+# SYNTAX: The version string always is 1.2.3 with an optional postfix of "+hg1234".
+#         This is useful if building is done by scripts. If you want to automatically
+#         add the correct HG revision, use only +hgX without number.
+#
+# IMPORTANT: If you modify the file, cmake re-creates the version header. But
+#            it is not able to set all library version. Please re-run cmake if
+#            you change something here.
+#
+# NOTE: do not add a space after #. The current CMake script will fail.
+# Examples:
+#VERSION=1.2.0
+#VERSION=1.2.0+hgX  -> replaces the X with the current revision number
+#VERSUIB=1.2.0+hg1234 -> here, revision number was set by the build scripts for example.
+VERSION=0.1.0+hgX

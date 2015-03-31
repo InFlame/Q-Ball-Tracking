@@ -1,0 +1,8 @@
+/u/mai11dre/QBallTractToolbox/build/CMakeFiles/OW_generate_version_header.dir
+/u/mai11dre/QBallTractToolbox/build/CMakeFiles/QBallTractToolbox.dir
+/u/mai11dre/QBallTractToolbox/build/CMakeFiles/ResourceConfiguration_QBallTractToolbox.dir
+/u/mai11dre/QBallTractToolbox/build/CMakeFiles/ResourceConfiguration_QBallTractToolbox_Global.dir
+/u/mai11dre/QBallTractToolbox/build/CMakeFiles/ResourceConfiguration_QBallTractToolbox_Global_linux.dir
+/u/mai11dre/QBallTractToolbox/build/CMakeFiles/doc.dir
+/u/mai11dre/QBallTractToolbox/build/CMakeFiles/stylecheck.dir
+/u/mai11dre/QBallTractToolbox/build/CMakeFiles/stylecheck_QBallTractToolbox.dir

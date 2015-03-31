@@ -1,0 +1,1859 @@
+2015-Mar-24 10:52:15 INFO    Walnut: Using the file "/home/mai11dre/QBallTractToolbox/build/openwalnut.log" for logging.
+2015-Mar-24 10:52:15 INFO    Walnut: Version: 1.5.0dev+hgd70166b239a9
+2015-Mar-24 10:52:15 DEBUG   OpenWalnut: OpenWalnut binary path: "/home/mai11dre/OpenWalnut/build/bin"
+2015-Mar-24 10:52:15 INFO    GUI: Bringing up GUI
+2015-Mar-24 10:52:15 INFO    GE: Initializing Graphics Engine
+2015-Mar-24 10:52:15 INFO    GE: Initializing OpenSceneGraph Root Node
+2015-Mar-24 10:52:15 INFO    Kernel: Initializing Kernel
+2015-Mar-24 10:52:15 DEBUG   Kernel: Version: 1.5.0dev+hgd70166b239a9
+2015-Mar-24 10:52:15 INFO    Data Handler: Initializing Data Handler
+2015-Mar-24 10:52:15 DEBUG   Data Handler: Adding subject with ID "0" and Name "UNKNOWN,  ".
+2015-Mar-24 10:52:15 DEBUG   ModuleContainer (KernelRootContainer): Constructing module container.
+2015-Mar-24 10:52:15 INFO    ModuleFactory: Loading Modules
+2015-Mar-24 10:52:15 INFO    Module Loader: Searching modules in "/home/mai11dre/OpenWalnut/build/bin/../lib/openwalnut".
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libfiberResampling.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 3 modules from libdataCreator.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libimageSpaceLIC.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libsurfaceIllustrator.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   ModuleContainer (Effective Connectivity Cluster): Constructing module container.
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libeffectiveConnectivityCluster.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libwriteDendrogram.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libarbitraryPlane.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libwriteRawData.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libmergeComponentsToVector.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   ModuleContainer (Distance Map Isosurface): Constructing module container.
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libdistanceMapIsosurface.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libfiberTransform.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libdistanceMap.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 3 modules from libdata.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libwriteMesh.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libwriteAmiraMesh.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libapplyMask.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libvectorAlign.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libisosurface.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libfiberFilterROI.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libcoordinateSystem.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libscalarOperator.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libpointRenderer.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libvectorPlot.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   ModuleContainer (Unnamed Module Container): Constructing module container.
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libprobTractDisplay.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libcalculateHistogram.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libHARDIToSphericalHarmonics.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libwebglSupport.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libpaintTexture.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libeegView.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libgridRenderer.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libgaussFiltering.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libfibersToPoints.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libdataTypeConversion.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libsampleOnFibers.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libfiberSelection.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libdatasetProfile.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libreadMesh.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libwriteTransferFunction.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libdeterministicFTMori.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libdirectVolumeRendering.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libmergePoints.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libsurfaceParameterAnimator.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libreadVIM.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libfiberTranslator.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libprojectionsAsContext.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libclusterDisplayVoxels.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libhistogramEqualization.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 2 modules from libhistogramView.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libsplineSurface.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libarbitraryROIs.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libreadAmiraMesh.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libcolormapper.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libvectorNormalize.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libfiberParameterColoring.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libreadDipoles.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libreadRawData.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libclusterDisplay.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libisosurfaceRaytracer.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libnavigationSlices.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libtransferFunctionColorBar.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libsuperquadricGlyphs.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libdatasetManipulator.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libcalculateTensors.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libvectorScale.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libwriteTracts.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libvoxelizer.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libscalarSegmentation.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libfiberDisplay.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libeigenSystem.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   ModuleContainer (Template Containers): Constructing module container.
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 7 modules from libtemplate.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libimageExtractor.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libvectorOperator.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libfunctionalMRIViewer.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libcalculateGFA.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libanisotropicFiltering.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libtriangleMeshRenderer.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libspatialDerivative.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libtransferFunction1D.so.1.5.0
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libmeshToPoints.so.1.5.0
+2015-Mar-24 10:52:16 INFO    Module Loader: Searching modules in "/u/mai11dre/.OpenWalnut/modules".
+2015-Mar-24 10:52:16 WARNING Module Loader: Searching modules in "/u/mai11dre/.OpenWalnut/modules" failed. It is not a directory or does not exist. Ignoring.
+2015-Mar-24 10:52:16 INFO    Module Loader: Searching modules in "/u/mai11dre/QBallTractToolbox/build".
+2015-Mar-24 10:52:16 DEBUG   Module Loader: Loaded 1 modules from libQBallTractToolbox.so.0.1.0
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Fiber Re-Sampling"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Scalar Data Creator"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Vector Data Creator"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Fiber Data Creator"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Image Space LIC"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Surface Illustrator"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Effective Connectivity Cluster"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Write Dendrogram"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Arbitrary Plane"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Write Raw Data"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Merge Components To Vector"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Distance Map Isosurface"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Fiber Transform"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Distance Map"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Data Module"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Read Spherical Harmonics"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Write NIfTI"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Write Mesh"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Write Amira Mesh"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Apply Mask"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Vector Align"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Isosurface"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Fiber Filter ROI"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Coordinate System"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Scalar Operator"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Point Renderer"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Vector Plot"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Probabilistic Tract Rendering with multi transparent iso surfaces."
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "CalculateHistogram"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Spherical Harmonic Calculator"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "WebGL Support"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Paint Texture"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "EEG View"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Grid Renderer"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Gauss Filtering"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Fibers To Points"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Data Type Conversion"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Sample On Fibers"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Fiber Selection"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Dataset Profile"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Read Mesh"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Write Transfer Function"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Mori Det. Tracking"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Direct Volume Rendering"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Merge Points"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Surface Parameter Animator"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Read VIM"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Fiber translator"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Projections As Context"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "ClusterDisplayVoxels"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Histogram Equalization"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "HistogramView"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "MultiHistogramView"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Spline Surface"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Arbitrary ROIs"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Read Amira Mesh"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Colormapper"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Vector Normalize"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Fiber Parameter Coloring"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Read Dipoles"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Read Raw Data"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Cluster Display"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Isosurface Raytracer"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Navigation Slices"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Transfer Function Color Bar"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Superquadric Glyphs"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Dataset Manipulator"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Calculate Tensors"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Vector Scaling"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Write Tracts"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Voxelizer"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Scalar Segmentation"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Fiber Display"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Eigen System"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Template"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Template Containers"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Template UI"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Template Shaders"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Template Colormapping"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Template Render Pipelines"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Template Data Loader"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Image Extractor"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Vector Operator"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Functional MRI Viewer"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Calculate GFA"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Anisotropic Filter"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Triangle Mesh Renderer"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Spatial Derivative"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Transfer Function 1D"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "Mesh To Points"
+2015-Mar-24 10:52:16 DEBUG   ModuleFactory: Initializing module prototype: "QBall Tractography"
+2015-Mar-24 10:52:16 INFO    ModuleFactory: Loading Modules Done
+2015-Mar-24 10:52:16 INFO    Kernel: Starting Kernel
+2015-Mar-24 10:52:16 INFO    WMainWindow: Setting up GUI
+2015-Mar-24 10:52:17 INFO    MainWindow: Restoring window state.
+2015-Mar-24 10:52:17 INFO    GE: Starting Graphics Engine
+2015-Mar-24 10:52:17 INFO    Kernel: Initializing extensions.
+2015-Mar-24 10:52:17 DEBUG   WGEShader: Reloading vertex shader "WGECameraVignette-vertex.glsl"
+2015-Mar-24 10:52:17 DEBUG   WModuleLoader: Initializing extensions of "libhistogramView.so.1.5.0"
+2015-Mar-24 10:52:17 DEBUG   WModuleLoader: Initializing extensions of "libtemplate.so.1.5.0"
+2015-Mar-24 10:52:17 DEBUG   WModuleLoader: Initializing extensions of "libQBallTractToolbox.so.0.1.0"
+2015-Mar-24 10:52:17 INFO    Kernel: Initialization completed.
+2015-Mar-24 10:52:17 DEBUG   OpenWalnut: Deferred loading of data and project files.
+2015-Mar-24 10:52:17 DEBUG   WGEShader: Reloading fragment shader "WGECameraVignette-fragment.glsl"
+2015-Mar-24 10:52:17 DEBUG   WGEShader: Reloading geometry shader "WGECameraVignette-geometry.glsl"
+2015-Mar-24 10:52:17 DEBUG   WGEShader: Reloading vertex shader "WGECameraOverlayTexture-vertex.glsl"
+2015-Mar-24 10:52:17 DEBUG   WGEShader: Reloading fragment shader "WGECameraOverlayTexture-fragment.glsl"
+2015-Mar-24 10:52:17 DEBUG   WGEShader: Reloading geometry shader "WGECameraOverlayTexture-geometry.glsl"
+2015-Mar-24 10:52:17 DEBUG   WGEShader: Reloading vertex shader "WGECameraHorizon-vertex.glsl"
+2015-Mar-24 10:52:17 DEBUG   WGEShader: Reloading fragment shader "WGECameraHorizon-fragment.glsl"
+2015-Mar-24 10:52:17 DEBUG   WGEShader: Reloading geometry shader "WGECameraHorizon-geometry.glsl"
+2015-Mar-24 10:52:23 INFO    Project File: Loading project file "/u/mai11dre/OpenWalnut/build/project.owp".
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 5: Data "Data Module" with ID 0 and input "FILE " with parameters "/home/mai11dre/OpenWalnut/build/mr188_HARDI/HS5T060111_diff_1mm_withoutGradients.nii"
+2015-Mar-24 10:52:23 DEBUG   ModuleFactory: Creating new instance of prototype "Data Module".
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 7: Property "Name" of module 0 set to Data Module
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 8: Property "active" of module 0 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 9: Property "Transformation matrix" of module 0 set to 2
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 14: Data "Data Module" with ID 1 and input "FILE " with parameters "/home/mai11dre/OpenWalnut/build/mr188_fa.nii.gz"
+2015-Mar-24 10:52:23 DEBUG   ModuleFactory: Creating new instance of prototype "Data Module".
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 16: Property "Name" of module 1 set to Data Module
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 17: Property "active" of module 1 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 18: Property "Transformation matrix" of module 1 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 22: Property "Texture Properties/Name" of module 1 set to Data Module
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 23: Property "Texture Properties/Sort Index" of module 1 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 24: Property "Texture Properties/Minimum" of module 1 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 25: Property "Texture Properties/Scale" of module 1 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 26: Property "Texture Properties/Alpha" of module 1 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 27: Property "Texture Properties/Enable Zero Clip" of module 1 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 28: Property "Texture Properties/Enable Threshold" of module 1 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 29: Property "Texture Properties/Lower Threshold" of module 1 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 30: Property "Texture Properties/Upper Threshold" of module 1 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 31: Property "Texture Properties/Enable Windowing" of module 1 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 32: Property "Texture Properties/Window Level" of module 1 set to 0;1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 33: Property "Texture Properties/Interpolate" of module 1 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 34: Property "Texture Properties/Colormap" of module 1 set to 5
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 35: Property "Texture Properties/Active" of module 1 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 39: Module "Image Extractor" with ID 2
+2015-Mar-24 10:52:23 DEBUG   ModuleFactory: Creating new instance of prototype "Image Extractor".
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 41: Property "Name" of module 2 set to Image Extractor
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 42: Property "active" of module 2 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 43: Property "Image" of module 2 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 44: Property "Min %" of module 2 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 45: Property "Max %" of module 2 set to 100
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 48: Module "Navigation Slices" with ID 3
+2015-Mar-24 10:52:23 DEBUG   ModuleFactory: Creating new instance of prototype "Navigation Slices".
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 50: Property "Name" of module 3 set to Navigation Slices
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 51: Property "active" of module 3 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 52: Property "No transparency" of module 3 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 54: Property "Slices/Show Sagittal Slice" of module 3 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 55: Property "Slices/Show Coronal Slice" of module 3 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 56: Property "Slices/Show Axial Slice" of module 3 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 57: Property "Slices/Sagittal Position" of module 3 set to 80
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 58: Property "Slices/Coronal Position" of module 3 set to 100
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 59: Property "Slices/Axial Position" of module 3 set to 80
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 63: Module "QBall Tractography" with ID 4
+2015-Mar-24 10:52:23 DEBUG   ModuleFactory: Creating new instance of prototype "QBall Tractography".
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 65: Property "Name" of module 4 set to QBall Tractography
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 66: Property "active" of module 4 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 67: Property "Set marker" of module 4 set to PV_TRIGGER_READY
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 68: Property "Start calculation" of module 4 set to PV_TRIGGER_READY
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 69: Property "Push to cache" of module 4 set to PV_TRIGGER_READY
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 70: Property "Clear cache" of module 4 set to PV_TRIGGER_READY
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 71: Property "Select x value" of module 4 set to 100
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 72: Property "Select y value" of module 4 set to 100
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 73: Property "Select z value" of module 4 set to 100
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 74: Property "SH order" of module 4 set to 4
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 75: Property "Reconstruction points" of module 4 set to 642
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 76: Property "Tesselation level" of module 4 set to 3
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 78: Property "QBall Tracking/Algorithm" of module 4 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 80: Property "QBall Tracking/CPU/Show SH" of module 4 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 81: Property "QBall Tracking/CPU/Main directions" of module 4 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 82: Property "QBall Tracking/CPU/Seed points" of module 4 set to 100
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 83: Property "QBall Tracking/CPU/Points per Voxel" of module 4 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 84: Property "QBall Tracking/CPU/Step size" of module 4 set to 0.1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 85: Property "QBall Tracking/CPU/Distance" of module 4 set to 500
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 86: Property "QBall Tracking/CPU/FA" of module 4 set to 0.05
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 87: Property "QBall Tracking/CPU/Curvature" of module 4 set to 75
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 88: Property "QBall Tracking/CPU/% range" of module 4 set to 0.33
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 89: Property "QBall Tracking/CPU/deg range" of module 4 set to 45
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 91: Property "QBall Tracking/CPU/Fibers/Seed points" of module 4 set to 100
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 92: Property "QBall Tracking/CPU/Fibers/Points per Voxel" of module 4 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 93: Property "QBall Tracking/CPU/Fibers/Step size" of module 4 set to 0.1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 96: Property "QBall Tracking/CPU/Thresholds/FA" of module 4 set to 0.05
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 97: Property "QBall Tracking/CPU/Thresholds/Curvature" of module 4 set to 75
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 100: Property "QBall Tracking/CPU/Odf/% range" of module 4 set to 0.33
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 101: Property "QBall Tracking/CPU/Odf/deg range" of module 4 set to 45
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 105: Property "QBall Tracking/CPU+/Show SH" of module 4 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 106: Property "QBall Tracking/CPU+/Main directions" of module 4 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 107: Property "QBall Tracking/CPU+/Seed points" of module 4 set to 100
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 108: Property "QBall Tracking/CPU+/Points per Voxel" of module 4 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 109: Property "QBall Tracking/CPU+/Step size" of module 4 set to 0.1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 110: Property "QBall Tracking/CPU+/Distance" of module 4 set to 500
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 111: Property "QBall Tracking/CPU+/FA" of module 4 set to 0.05
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 112: Property "QBall Tracking/CPU+/Curvature" of module 4 set to 75
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 113: Property "QBall Tracking/CPU+/% range" of module 4 set to 0.33
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 114: Property "QBall Tracking/CPU+/deg range" of module 4 set to 45
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 116: Property "QBall Tracking/CPU+/Fibers/Seed points" of module 4 set to 100
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 117: Property "QBall Tracking/CPU+/Fibers/Points per Voxel" of module 4 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 118: Property "QBall Tracking/CPU+/Fibers/Step size" of module 4 set to 0.1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 121: Property "QBall Tracking/CPU+/Thresholds/FA" of module 4 set to 0.05
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 122: Property "QBall Tracking/CPU+/Thresholds/Curvature" of module 4 set to 75
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 125: Property "QBall Tracking/CPU+/Odf/% range" of module 4 set to 0.33
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 126: Property "QBall Tracking/CPU+/Odf/deg range" of module 4 set to 45
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 134: Module "Fiber Display" with ID 5
+2015-Mar-24 10:52:23 DEBUG   ModuleFactory: Creating new instance of prototype "Fiber Display".
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 136: Property "Name" of module 5 set to Fiber Display
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 137: Property "active" of module 5 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 138: Property "ROI Filtering" of module 5 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 139: Property "ROI Coloring" of module 5 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 141: Property "Coloring/Illumination" of module 5 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 142: Property "Coloring/Use plain color" of module 5 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 143: Property "Coloring/Color" of module 5 set to 1 1 1 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 144: Property "Coloring/Enable colormapping" of module 5 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 145: Property "Coloring/Colormap Ratio" of module 5 set to 0.5
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 148: Property "Clipping/Enabled" of module 5 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 149: Property "Clipping/Show Clip Plane" of module 5 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 150: Property "Clipping/Plane point" of module 5 set to 0;0;0;
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 151: Property "Clipping/Plane normal" of module 5 set to 1;0;0;
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 152: Property "Clipping/Clip distance" of module 5 set to 10
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 155: Property "Line Rendering/Width" of module 5 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 156: Property "Line Rendering/Anti-Alias" of module 5 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 159: Property "Tube Rendering/Enable Tubes" of module 5 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 160: Property "Tube Rendering/Use end caps" of module 5 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 161: Property "Tube Rendering/Ribbon mode" of module 5 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 162: Property "Tube Rendering/Zoomable" of module 5 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 163: Property "Tube Rendering/Width" of module 5 set to 2
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 166: Property "Post-processing/Texture Debug" of module 5 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 167: Property "Post-processing/Enable" of module 5 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 168: Property "Post-processing/Postprocessor" of module 5 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 170: Property "Post-processing/Settings for Edge Enhance/Effect Only" of module 5 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 171: Property "Post-processing/Settings for Edge Enhance/Effect Scaling" of module 5 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 172: Property "Post-processing/Settings for Edge Enhance/White Edge" of module 5 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 173: Property "Post-processing/Settings for Edge Enhance/Edge Lower Threshold" of module 5 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 174: Property "Post-processing/Settings for Edge Enhance/Edge Upper Threshold" of module 5 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 177: Property "Post-processing/Settings for Cel Shading/Effect Only" of module 5 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 178: Property "Post-processing/Settings for Cel Shading/Effect Scaling" of module 5 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 179: Property "Post-processing/Settings for Cel Shading/Number of Bins" of module 5 set to 10
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 182: Property "Post-processing/Settings for Gauss Filtering/Effect Only" of module 5 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 183: Property "Post-processing/Settings for Gauss Filtering/Effect Scaling" of module 5 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 186: Property "Post-processing/Settings for SSAO/Effect Only" of module 5 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 187: Property "Post-processing/Settings for SSAO/Effect Scaling" of module 5 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 188: Property "Post-processing/Settings for SSAO/Samples" of module 5 set to 16
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 189: Property "Post-processing/Settings for SSAO/Radius" of module 5 set to 10
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 190: Property "Post-processing/Settings for SSAO/Total Strength" of module 5 set to 2
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 191: Property "Post-processing/Settings for SSAO/Strength" of module 5 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 192: Property "Post-processing/Settings for SSAO/Falloff" of module 5 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 195: Property "Post-processing/Settings for LineAO/Effect Only" of module 5 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 196: Property "Post-processing/Settings for LineAO/Effect Scaling" of module 5 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 197: Property "Post-processing/Settings for LineAO/Samples" of module 5 set to 32
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 198: Property "Post-processing/Settings for LineAO/Hemispheres" of module 5 set to 3
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 199: Property "Post-processing/Settings for LineAO/Radius" of module 5 set to 2
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 200: Property "Post-processing/Settings for LineAO/Total Strength" of module 5 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 201: Property "Post-processing/Settings for LineAO/Density Weight" of module 5 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 202: Property "Post-processing/Settings for LineAO/Use Gaussed ND-Map" of module 5 set to 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 203: Property "Post-processing/Settings for LineAO/Use Occluder Light" of module 5 set to 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 222: Camera "Main View" with ID 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 224: Camera Manipulator Matrix with ID 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 225: Camera Manipulator Home Eye Point with ID 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 226: Camera Manipulator Home Center Point with ID 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 227: Camera Manipulator Home Up Point with ID 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 234: Network "0;0" with module ID 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 235: Network Flags"0;0" with module ID 0
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 236: Network "1;0" with module ID 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 237: Network Flags"0;0" with module ID 1
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 238: Network "0;1" with module ID 2
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 239: Network Flags"0;1" with module ID 2
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 240: Network "2;0" with module ID 3
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 241: Network Flags"0;0" with module ID 3
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 242: Network "1;1" with module ID 4
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 243: Network Flags"0;1" with module ID 4
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 244: Network "1;2" with module ID 5
+2015-Mar-24 10:52:23 DEBUG   Project Loader [Parser]: Line 245: Network Flags"0;1" with module ID 5
+2015-Mar-24 10:52:23 INFO    ModuleContainer (KernelRootContainer): Adding module "Data Module" to container.
+2015-Mar-24 10:52:23 INFO    ModuleContainer (KernelRootContainer): Associated module "Data Module" with container.
+2015-Mar-24 10:52:23 INFO    ModuleContainer (KernelRootContainer): Adding module "Data Module" to container.
+2015-Mar-24 10:52:23 INFO    ModuleContainer (KernelRootContainer): Associated module "Data Module" with container.
+2015-Mar-24 10:52:23 INFO    Module (Data Module): Starting module main method.
+2015-Mar-24 10:52:23 INFO    ModuleContainer (KernelRootContainer): Adding module "Image Extractor" to container.
+2015-Mar-24 10:52:23 INFO    Module (Data Module): Starting module main method.
+2015-Mar-24 10:52:23 INFO    ModuleContainer (KernelRootContainer): Associated module "Image Extractor" with container.
+2015-Mar-24 10:52:23 INFO    ModuleContainer (KernelRootContainer): Adding module "Navigation Slices" to container.
+2015-Mar-24 10:52:23 INFO    ModuleContainer (KernelRootContainer): Associated module "Navigation Slices" with container.
+2015-Mar-24 10:52:23 INFO    Module (Image Extractor): Starting module main method.
+2015-Mar-24 10:52:23 INFO    ModuleContainer (KernelRootContainer): Adding module "QBall Tractography" to container.
+2015-Mar-24 10:52:23 INFO    ModuleContainer (KernelRootContainer): Associated module "QBall Tractography" with container.
+2015-Mar-24 10:52:23 INFO    Module (Navigation Slices): Starting module main method.
+2015-Mar-24 10:52:23 INFO    ModuleContainer (KernelRootContainer): Adding module "Fiber Display" to container.
+2015-Mar-24 10:52:23 INFO    ModuleContainer (KernelRootContainer): Associated module "Fiber Display" with container.
+2015-Mar-24 10:52:23 INFO    Module (QBall Tractography): Starting module main method.
+2015-Mar-24 10:52:23 DEBUG   QBall Tractography: Waiting ... 
+2015-Mar-24 10:52:23 INFO    Module (Fiber Display): Starting module main method.
+2015-Mar-24 10:52:23 DEBUG   Navigation Slices: Waiting ...
+2015-Mar-24 10:52:23 DEBUG   NetworkEditor: Inserting "Data Module".
+2015-Mar-24 10:52:23 DEBUG   Fiber Display: Waiting ...
+2015-Mar-24 10:52:23 WARNING Project Loader: The module "Data Module" has no property named "Texture Properties/Name". Skipping.
+2015-Mar-24 10:52:23 WARNING Project Loader: The module "Data Module" has no property named "Texture Properties/Sort Index". Skipping.
+2015-Mar-24 10:52:23 WARNING Project Loader: The module "Data Module" has no property named "Texture Properties/Minimum". Skipping.
+2015-Mar-24 10:52:23 WARNING Project Loader: The module "Data Module" has no property named "Texture Properties/Scale". Skipping.
+2015-Mar-24 10:52:23 WARNING Project Loader: The module "Data Module" has no property named "Texture Properties/Alpha". Skipping.
+2015-Mar-24 10:52:23 WARNING Project Loader: The module "Data Module" has no property named "Texture Properties/Enable Zero Clip". Skipping.
+2015-Mar-24 10:52:23 WARNING Project Loader: The module "Data Module" has no property named "Texture Properties/Enable Threshold". Skipping.
+2015-Mar-24 10:52:23 WARNING Project Loader: The module "Data Module" has no property named "Texture Properties/Lower Threshold". Skipping.
+2015-Mar-24 10:52:23 WARNING Project Loader: The module "Data Module" has no property named "Texture Properties/Upper Threshold". Skipping.
+2015-Mar-24 10:52:23 WARNING Project Loader: The module "Data Module" has no property named "Texture Properties/Enable Windowing". Skipping.
+2015-Mar-24 10:52:23 WARNING Project Loader: The module "Data Module" has no property named "Texture Properties/Window Level". Skipping.
+2015-Mar-24 10:52:23 WARNING Project Loader: The module "Data Module" has no property named "Texture Properties/Interpolate". Skipping.
+2015-Mar-24 10:52:23 WARNING Project Loader: The module "Data Module" has no property named "Texture Properties/Colormap". Skipping.
+2015-Mar-24 10:52:23 WARNING Project Loader: The module "Data Module" has no property named "Texture Properties/Active". Skipping.
+2015-Mar-24 10:52:23 DEBUG   Navigation Slices: Waiting ...
+2015-Mar-24 10:52:23 DEBUG   Data Module: Loading data from "/home/mai11dre/OpenWalnut/build/mr188_HARDI/HS5T060111_diff_1mm_withoutGradients.nii".
+2015-Mar-24 10:52:23 DEBUG   Data Module: Loading data from "/home/mai11dre/OpenWalnut/build/mr188_fa.nii.gz".
+2015-Mar-24 10:52:23 DEBUG   ControlPanel: Inserting module Data Module to control panel.
+2015-Mar-24 10:52:23 DEBUG   NetworkEditor: Inserting "Data Module".
+2015-Mar-24 10:52:23 DEBUG   ControlPanel: Inserting module Data Module to control panel.
+2015-Mar-24 10:52:23 DEBUG   NetworkEditor: Activating "Data Module".
+2015-Mar-24 10:52:23 DEBUG   ControlPanel: Activating module "Data Module".
+2015-Mar-24 10:52:23 DEBUG   NetworkEditor: Activating "Data Module".
+2015-Mar-24 10:52:23 DEBUG   ControlPanel: Activating module "Data Module".
+2015-Mar-24 10:52:23 DEBUG   WReaderNIfTI: Load as WDataSetScalar
+2015-Mar-24 10:52:23 DEBUG   Data Module: Loading data done.
+2015-Mar-24 10:52:23 DEBUG   Data Module: Matrix mode update.
+2015-Mar-24 10:52:23 DEBUG   WGEColormapping: Registering texture "Data Module".
+2015-Mar-24 10:52:23 DEBUG   Navigation Slices: Waiting ...
+2015-Mar-24 10:52:23 DEBUG   ControlPanel: Activating module "Data Module".
+2015-Mar-24 10:52:23 DEBUG   NetworkEditor: Inserting "Image Extractor".
+2015-Mar-24 10:52:23 DEBUG   ControlPanel: Inserting module Image Extractor to control panel.
+2015-Mar-24 10:52:23 DEBUG   NetworkEditor: Inserting "Navigation Slices".
+2015-Mar-24 10:52:23 DEBUG   ControlPanel: Inserting module Navigation Slices to control panel.
+2015-Mar-24 10:52:23 DEBUG   NetworkEditor: Activating "Image Extractor".
+2015-Mar-24 10:52:23 DEBUG   ControlPanel: Activating module "Image Extractor".
+2015-Mar-24 10:52:23 DEBUG   ControlPanel: Activating module "Image Extractor".
+2015-Mar-24 10:52:23 DEBUG   NetworkEditor: Inserting "QBall Tractography".
+2015-Mar-24 10:52:23 DEBUG   ControlPanel: Inserting module QBall Tractography to control panel.
+2015-Mar-24 10:52:23 DEBUG   NetworkEditor: Activating "Navigation Slices".
+2015-Mar-24 10:52:23 DEBUG   ControlPanel: Activating module "Navigation Slices".
+2015-Mar-24 10:52:23 DEBUG   ControlPanel: Activating module "Navigation Slices".
+2015-Mar-24 10:52:23 DEBUG   NetworkEditor: Inserting "Fiber Display".
+2015-Mar-24 10:52:23 DEBUG   ControlPanel: Inserting module Fiber Display to control panel.
+2015-Mar-24 10:52:23 DEBUG   NetworkEditor: Activating "QBall Tractography".
+2015-Mar-24 10:52:23 DEBUG   ControlPanel: Activating module "QBall Tractography".
+2015-Mar-24 10:52:24 DEBUG   ControlPanel: Activating module "QBall Tractography".
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading vertex shader "WMNavigationSlices-vertex.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading fragment shader "WMNavigationSlices-fragment.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading geometry shader "WMNavigationSlices-geometry.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading vertex shader "WGECullProxyShader-vertex.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading fragment shader "WGECullProxyShader-fragment.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading geometry shader "WGECullProxyShader-geometry.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading vertex shader "WGECullProxyShader-vertex.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading fragment shader "WGECullProxyShader-fragment.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading geometry shader "WGECullProxyShader-geometry.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading vertex shader "WGEPostprocessor-vertex.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading fragment shader "WGEPostprocessor-fragment.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading geometry shader "WGEPostprocessor-geometry.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading vertex shader "WGEPostprocessorCombiner-vertex.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading fragment shader "WGEPostprocessorCombiner-fragment.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading geometry shader "WGEPostprocessorCombiner-geometry.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading vertex shader "WGECullProxyShader-vertex.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading fragment shader "WGECullProxyShader-fragment.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading geometry shader "WGECullProxyShader-geometry.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading vertex shader "WGEPostprocessor-vertex.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading fragment shader "WGEPostprocessor-fragment.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading geometry shader "WGEPostprocessor-geometry.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading vertex shader "WGEPostprocessorCombiner-vertex.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading fragment shader "WGEPostprocessorCombiner-fragment.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading geometry shader "WGEPostprocessorCombiner-geometry.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading vertex shader "WGECullProxyShader-vertex.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading fragment shader "WGECullProxyShader-fragment.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading geometry shader "WGECullProxyShader-geometry.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading vertex shader "WGEPostprocessor-vertex.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading fragment shader "WGEPostprocessor-fragment.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading geometry shader "WGEPostprocessor-geometry.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading vertex shader "WGEPostprocessorCombiner-vertex.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading fragment shader "WGEPostprocessorCombiner-fragment.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading geometry shader "WGEPostprocessorCombiner-geometry.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading vertex shader "WGECullProxyShader-vertex.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading fragment shader "WGECullProxyShader-fragment.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading geometry shader "WGECullProxyShader-geometry.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading vertex shader "WGEPostprocessor-vertex.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading fragment shader "WGEPostprocessor-fragment.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading geometry shader "WGEPostprocessor-geometry.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading vertex shader "WGEPostprocessorCombiner-vertex.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading fragment shader "WGEPostprocessorCombiner-fragment.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading geometry shader "WGEPostprocessorCombiner-geometry.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading vertex shader "WGECullProxyShader-vertex.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading fragment shader "WGECullProxyShader-fragment.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading geometry shader "WGECullProxyShader-geometry.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading vertex shader "WGEPostprocessor-vertex.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading fragment shader "WGEPostprocessor-fragment.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading geometry shader "WGEPostprocessor-geometry.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading vertex shader "WGEPostprocessorCombiner-vertex.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading fragment shader "WGEPostprocessorCombiner-fragment.glsl"
+2015-Mar-24 10:52:24 DEBUG   WGEShader: Reloading geometry shader "WGEPostprocessorCombiner-geometry.glsl"
+2015-Mar-24 10:52:24 DEBUG   NetworkEditor: Activating "Fiber Display".
+2015-Mar-24 10:52:24 DEBUG   ControlPanel: Activating module "Fiber Display".
+2015-Mar-24 10:52:24 DEBUG   ControlPanel: Activating module "Fiber Display".
+2015-Mar-24 10:52:25 DEBUG   WDataTexture3D: Creating Texture of type W_DT_FLOAT
+2015-Mar-24 10:52:25 DEBUG   WDataTexture3D: Resolution: 160x200x160
+2015-Mar-24 10:52:25 DEBUG   WDataTexture3D: Channels: 1
+2015-Mar-24 10:52:25 DEBUG   WDataTexture3D: Value Range: [0,1] - Scaler: 1
+2015-Mar-24 10:52:26 DEBUG   WReaderNIfTI: Load as WDataSetRawHARDI
+2015-Mar-24 10:52:26 DEBUG   Data Module: Loading data done.
+2015-Mar-24 10:52:26 DEBUG   Data Module: Matrix mode update.
+2015-Mar-24 10:52:27 INFO    ModuleContainer (KernelRootContainer): Adding module "Data Module" to container.
+2015-Mar-24 10:52:27 INFO    ModuleContainer (KernelRootContainer): Adding module "Data Module" to container not needed. Its already inside.
+2015-Mar-24 10:52:27 INFO    ModuleContainer (KernelRootContainer): Adding module "QBall Tractography" to container.
+2015-Mar-24 10:52:27 INFO    ModuleContainer (KernelRootContainer): Adding module "QBall Tractography" to container not needed. Its already inside.
+2015-Mar-24 10:52:27 INFO    ModuleContainer (KernelRootContainer): Connecting Data Module:out with QBall Tractography:HARDI
+2015-Mar-24 10:52:27 DEBUG   QBall Tractography: No valid data. Cleaning up.
+2015-Mar-24 10:52:27 DEBUG   QBall Tractography: SH Order size: 15
+2015-Mar-24 10:52:27 DEBUG   NetworkEditor: Connecting "QBall Tractography" and "Data Module".
+2015-Mar-24 10:52:27 DEBUG   QBall Tractography: ready
+2015-Mar-24 10:52:27 DEBUG   QBall Tractography: Waiting ... 
+2015-Mar-24 10:52:28 INFO    ModuleContainer (KernelRootContainer): Adding module "Data Module" to container.
+2015-Mar-24 10:52:28 INFO    ModuleContainer (KernelRootContainer): Adding module "Data Module" to container not needed. Its already inside.
+2015-Mar-24 10:52:28 INFO    ModuleContainer (KernelRootContainer): Adding module "QBall Tractography" to container.
+2015-Mar-24 10:52:28 INFO    ModuleContainer (KernelRootContainer): Adding module "QBall Tractography" to container not needed. Its already inside.
+2015-Mar-24 10:52:28 INFO    ModuleContainer (KernelRootContainer): Connecting Data Module:out with QBall Tractography:fa
+2015-Mar-24 10:52:28 DEBUG   NetworkEditor: Connecting "QBall Tractography" and "Data Module".
+2015-Mar-24 10:52:28 DEBUG   ControlPanel: Activating module "QBall Tractography".
+2015-Mar-24 10:52:31 DEBUG   QBall Tractography: non zero gradients: 60
+2015-Mar-24 10:52:31 DEBUG   QBall Tractography: number of measurements: 67
+2015-Mar-24 10:52:31 DEBUG   QBall Tractography: Size: 5120000
+2015-Mar-24 10:52:31 DEBUG   QBall Tractography: Dimension: 67
+2015-Mar-24 10:52:31 DEBUG   QBall Tractography: OrientationSize: 67
+2015-Mar-24 10:52:31 DEBUG   QBall Tractography: Voxel size: 67
+2015-Mar-24 10:52:31 DEBUG   QBall Tractography: SH Order size: 15
+2015-Mar-24 10:52:31 DEBUG   GPU: /u/mai11dre/QBallTractToolbox/build/lib/openwalnut/QBallTractToolbox/../../../share/openwalnut/modules/QBallTractToolbox
+2015-Mar-24 10:52:31 DEBUG   GPU: Buffer created. Errorcode: 0
+2015-Mar-24 10:52:31 DEBUG   QBall Tractography: SH Order size: 15
+2015-Mar-24 10:52:31 DEBUG   GPU: Program successfully build!
+2015-Mar-24 10:52:32 DEBUG   GPU: VRam allocated. Errorcode: -6
+2015-Mar-24 10:52:32 DEBUG   GPU: Samples drawn with 30720 Threads! Errorcode: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: Computing odf. Errorcode: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: Getting local maximas. Errorcode: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: Integrated linesegment. Errorcode: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: 0
+2015-Mar-24 10:52:32 DEBUG   GPU: VoxelIndex: 1936100
+2015-Mar-24 10:52:32 DEBUG   QBall Tractography: ready
+2015-Mar-24 10:52:32 DEBUG   QBall Tractography: Waiting ... 
+2015-Mar-24 10:52:32 DEBUG   QBall Tractography: SH Order size: 15
+2015-Mar-24 10:52:32 DEBUG   QBall Tractography: ready
+2015-Mar-24 10:52:32 DEBUG   QBall Tractography: Waiting ... 
+2015-Mar-24 10:56:51 DEBUG   QBall Tractography: SH Order size: 15
+2015-Mar-24 10:56:51 DEBUG   GPU: VRam allocated. Errorcode: -1
+2015-Mar-24 10:56:51 DEBUG   GPU: Samples drawn with 30720 Threads! Errorcode: -45
+2015-Mar-24 10:56:51 DEBUG   GPU: Computing odf. Errorcode: -45
+2015-Mar-24 10:56:51 DEBUG   GPU: Getting local maximas. Errorcode: -45
+2015-Mar-24 10:56:51 DEBUG   GPU: Integrated linesegment. Errorcode: -45
+2015-Mar-24 10:56:51 DEBUG   GPU: 2120
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: 0
+2015-Mar-24 10:56:51 DEBUG   GPU: VoxelIndex: 1936100
+2015-Mar-24 10:56:51 ERROR   KernelRootContainer: Error in module "QBall Tractography". Forwarding to nesting container.
+2015-Mar-24 10:56:51 INFO    ModuleContainer (KernelRootContainer): Disconnecting Data Module:out from QBall Tractography:HARDI
+2015-Mar-24 10:56:51 INFO    ModuleContainer (KernelRootContainer): Disconnecting Data Module:out from QBall Tractography:fa
+2015-Mar-24 10:56:51 ERROR   Module (QBall Tractography): WException. Notifying. Message: Segmentation Fault.
+2015-Mar-24 10:56:51 DEBUG   NetworkEditor: Marking "QBall Tractography" as crashed.
+2015-Mar-24 10:56:51 DEBUG   NetworkEditor: Disconnecting "QBall Tractography:HARDI" and "Data Module:out".
+2015-Mar-24 10:56:51 DEBUG   NetworkEditor: Disconnecting "QBall Tractography:fa" and "Data Module:out".
+2015-Mar-24 10:57:03 INFO    MainWindow: Saving window state.
+2015-Mar-24 10:57:03 INFO    Kernel: Stopping Kernel
+2015-Mar-24 10:57:03 INFO    ModuleContainer (KernelRootContainer): Stopping pending threads.
+2015-Mar-24 10:57:03 INFO    ModuleContainer (KernelRootContainer): Stopping modules.
+2015-Mar-24 10:57:03 INFO    ModuleContainer (KernelRootContainer): Waiting for module "Data Module" to finish.
+2015-Mar-24 10:57:03 INFO    ModuleContainer (KernelRootContainer): Waiting for module "Data Module" to finish.
+2015-Mar-24 10:57:03 DEBUG   WGEColormapping: De-registering texture "Data Module".
+2015-Mar-24 10:57:03 DEBUG   Navigation Slices: Waiting ...
+2015-Mar-24 10:57:03 INFO    ModuleContainer (KernelRootContainer): Waiting for module "Image Extractor" to finish.
+2015-Mar-24 10:57:03 DEBUG   Image Extractor: Shutting down...
+2015-Mar-24 10:57:03 DEBUG   Image Extractor: Finished! Good Bye!
+2015-Mar-24 10:57:03 INFO    ModuleContainer (KernelRootContainer): Waiting for module "Navigation Slices" to finish.
+2015-Mar-24 10:57:03 INFO    ModuleContainer (KernelRootContainer): Waiting for module "QBall Tractography" to finish.
+2015-Mar-24 10:57:03 INFO    ModuleContainer (KernelRootContainer): Waiting for module "Fiber Display" to finish.
+2015-Mar-24 10:57:03 INFO    Kernel: Stopping Data Handler
+2015-Mar-24 10:57:03 INFO    Data Handler: Removing all subjects.
+2015-Mar-24 10:57:03 DEBUG   Data Handler: Removing subject "0".
+2015-Mar-24 10:57:03 DEBUG   WQtGLWidget: OpenGL widget for viewer "Main View" removed.
+2015-Mar-24 10:57:03 INFO    Kernel: Shutting down Kernel
+2015-Mar-24 10:57:03 INFO    GE: Stopping Graphics Engine
