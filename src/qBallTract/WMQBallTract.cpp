@@ -51,11 +51,9 @@ WMQBallTract::WMQBallTract():
     "Select one of the algorithms and configure it to your needs.", NULL, "Algorithm", "A list of algorithms" )
 {	
 	m_qBallCPU = WQBallCPU::SPtr( new WQBallCPU() );
-	m_qBallCPU_parallel = WQBallCPU::SPtr( new WQBallCPU( true ) );
 	m_qBallGPU = WQBallGPU::SPtr( new WQBallGPU() );
 
 	m_strategy.addStrategy( m_qBallCPU );
-	m_strategy.addStrategy( m_qBallCPU_parallel );
 	m_strategy.addStrategy( m_qBallGPU );
 }
 

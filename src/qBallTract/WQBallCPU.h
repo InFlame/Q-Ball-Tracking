@@ -18,7 +18,6 @@ class WQBallCPU: public WObjectNDIP< WQBallAlgorithm >
 public:
 
 	WQBallCPU();
-	WQBallCPU( bool parallel );
 	virtual ~WQBallCPU();
 
 	virtual void prepareAlgorithm( boost::shared_ptr< WDataSetRawHARDI > datasetRaw, boost::shared_ptr< WDataSetScalar > datasetScalar, boost::filesystem::path path, boost::shared_ptr< WProgress > prog );
@@ -33,7 +32,6 @@ private:
 	WPropInt m_cores;
 
 	WPropInt m_seedPoints;
-    WPropInt m_seedsPerVoxel;
     WPropDouble m_stepSize;
     WPropInt m_stepDistance;
 
@@ -47,6 +45,9 @@ private:
     WPropGroup m_fibers;
     WPropGroup m_thresholds;
     WPropGroup m_odfThresh;
+    WPropGroup m_advanced;
+
+    WPropTrigger m_toggleAdvanced;
 
     float fa;
     float curv;
@@ -54,9 +55,6 @@ private:
     float percentRange;
     int degreeRange;
     int stepDistance;
-
-
-    bool m_parallel;
 
     boost::random::taus88 rndGen;
     boost::random::uniform_int_distribution<> rndDist;

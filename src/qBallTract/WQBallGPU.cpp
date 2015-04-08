@@ -89,6 +89,8 @@ void WQBallGPU::prepareAlgorithm( boost::shared_ptr< WDataSetRawHARDI > datasetR
 	memcpy( m_hardiData, rawData->rawData(), sizeof( short ) * datasetRaw->getValueSet()->dimension() * m_grid->size() );
 	memcpy( m_scalarDataIn, rawScalar->rawData(), sizeof( float ) * m_gridScalar->size() );
 
+
+	/* !!! peaks array ersetzen: im kernel getMaxima direkt hautrichtungen eintragen */
 	global = 512;
 	local = 32;
 
@@ -96,31 +98,6 @@ void WQBallGPU::prepareAlgorithm( boost::shared_ptr< WDataSetRawHARDI > datasetR
 	size_t steps = m_stepDistance->get ( true ) / m_stepSize->get( true );
 	size_t vertices = seedPoints * steps;
 
-	/* !!! peaks array ersetzen: im kernel getMaxima direkt hautrichtungen eintragen */
-
-	m_clHardi = clCreateBuffer( m_context, CL_MEM_READ_ONLY, sizeof( short ) * datasetRaw->getValueSet()->dimension() * m_grid->size(), NULL, &m_err );
-	m_clScalars = clCreateBuffer( m_context, CL_MEM_READ_ONLY, sizeof( float ) * m_gridScalar->size(), NULL, &m_err );
-	m_clFibers = clCreateBuffer( m_context, CL_MEM_WRITE_ONLY, sizeof( float ) * vertices * global, NULL, &m_err );
-	m_clScalarsOut = clCreateBuffer( m_context, CL_MEM_READ_WRITE, sizeof( float ) * m_gridScalar->size(), NULL, &m_err );
-	m_clOdf = clCreateBuffer( m_context, CL_MEM_READ_ONLY, sizeof( float ) * m_odf.getNbCols() * m_odf.getNbRows(), NULL, &m_err );
-	m_clBase = clCreateBuffer( m_context, CL_MEM_READ_ONLY, sizeof( float ) * m_baseMatrix.getNbCols() * m_baseMatrix.getNbRows(), NULL, &m_err );
-	m_clCoeff = clCreateBuffer( m_context, CL_MEM_READ_ONLY, sizeof( float ) * m_coeffBase.getNbCols() * m_coeffBase.getNbRows(), NULL, &m_err );
-	m_clH = clCreateBuffer( m_context, CL_MEM_READ_ONLY, sizeof( float ) * m_h.getNbCols() * m_h.getNbRows(), NULL, &m_err );
-	m_clReconstruction = clCreateBuffer( m_context, CL_MEM_READ_ONLY, 4 * sizeof( float ) * m_reconstructionPoints.size(), NULL, &m_err );
-	m_clProperties = clCreateBuffer( m_context, CL_MEM_READ_ONLY, sizeof( float ) * 6, NULL, &m_err );
-	m_clNzg = clCreateBuffer( m_context, CL_MEM_READ_ONLY, sizeof( ushort ) * m_nonZeroGradients.size(), NULL, &m_err );
-	m_clGridDimension = clCreateBuffer( m_context, CL_MEM_READ_ONLY, sizeof( ushort ) * 4, NULL, &m_err );
-	m_clDimensions = clCreateBuffer( m_context, CL_MEM_READ_ONLY, sizeof( uint ) * 6, NULL, &m_err );
-	m_clStartPos = clCreateBuffer( m_context, CL_MEM_READ_WRITE, sizeof( int ) * 4, NULL, &m_err );
-	m_clPositionArray = clCreateBuffer( m_context, CL_MEM_READ_WRITE, sizeof( int ) * 4 * seedPoints, NULL, &m_err );
-	m_clSampleArray = clCreateBuffer( m_context, CL_MEM_READ_WRITE, sizeof( float ) * datasetRaw->getNonZeroGradientIndexes().size() * global, NULL, &m_err );
-	m_clOdfArray = clCreateBuffer( m_context, CL_MEM_READ_WRITE, sizeof( float ) * m_reconstructionPoints.size() * global, NULL, &m_err );
-	m_clTest = clCreateBuffer( m_context, CL_MEM_WRITE_ONLY, sizeof( float ) * global, NULL, &m_err );
-	m_clPeaksArray = clCreateBuffer( m_context, CL_MEM_READ_WRITE, sizeof( short ) * m_reconstructionPoints.size() * global, NULL, &m_err );
-	m_clNeighbors = clCreateBuffer( m_context, CL_MEM_READ_ONLY, sizeof( ushort ) * m_neighbors.size() * 6, NULL, &m_err );
-	m_clMainDir = clCreateBuffer( m_context, CL_MEM_READ_WRITE, sizeof( float ) * 4 * 12 * global, NULL, &m_err );
-	m_clOldDirection = clCreateBuffer( m_context, CL_MEM_READ_WRITE, sizeof( float ) * 4 * global, NULL, &m_err );
-	wlog::debug( "GPU" ) << "Buffer created. Errorcode: " << m_err;
 
 }
 
@@ -151,7 +128,32 @@ std::pair<boost::shared_ptr< WDataSetFibers >, boost::shared_ptr< WDataSetScalar
 	size_t steps = m_stepDistance->get ( true ) / m_stepSize->get( true );
 	size_t vertices = seedPoints * steps;
 
-	float *fiberOut = new float[ vertices * global ];
+
+	m_clHardi = clCreateBuffer( m_context, CL_MEM_READ_ONLY, sizeof( short ) * datasetRaw->getValueSet()->dimension() * m_grid->size(), NULL, &m_err );
+	m_clScalars = clCreateBuffer( m_context, CL_MEM_READ_ONLY, sizeof( float ) * m_gridScalar->size(), NULL, &m_err );
+	m_clFibers = clCreateBuffer( m_context, CL_MEM_WRITE_ONLY, sizeof( float ) * global, NULL, &m_err );
+	m_clScalarsOut = clCreateBuffer( m_context, CL_MEM_READ_WRITE, sizeof( float ) * m_gridScalar->size(), NULL, &m_err );
+	m_clOdf = clCreateBuffer( m_context, CL_MEM_READ_ONLY, sizeof( float ) * m_odf.getNbCols() * m_odf.getNbRows(), NULL, &m_err );
+	m_clBase = clCreateBuffer( m_context, CL_MEM_READ_ONLY, sizeof( float ) * m_baseMatrix.getNbCols() * m_baseMatrix.getNbRows(), NULL, &m_err );
+	m_clCoeff = clCreateBuffer( m_context, CL_MEM_READ_ONLY, sizeof( float ) * m_coeffBase.getNbCols() * m_coeffBase.getNbRows(), NULL, &m_err );
+	m_clH = clCreateBuffer( m_context, CL_MEM_READ_ONLY, sizeof( float ) * m_h.getNbCols() * m_h.getNbRows(), NULL, &m_err );
+	m_clReconstruction = clCreateBuffer( m_context, CL_MEM_READ_ONLY, 4 * sizeof( float ) * m_reconstructionPoints.size(), NULL, &m_err );
+	m_clProperties = clCreateBuffer( m_context, CL_MEM_READ_ONLY, sizeof( float ) * 6, NULL, &m_err );
+	m_clNzg = clCreateBuffer( m_context, CL_MEM_READ_ONLY, sizeof( ushort ) * m_nonZeroGradients.size(), NULL, &m_err );
+	m_clGridDimension = clCreateBuffer( m_context, CL_MEM_READ_ONLY, sizeof( ushort ) * 4, NULL, &m_err );
+	m_clDimensions = clCreateBuffer( m_context, CL_MEM_READ_ONLY, sizeof( uint ) * 6, NULL, &m_err );
+	m_clStartPos = clCreateBuffer( m_context, CL_MEM_READ_WRITE, sizeof( int ) * 4, NULL, &m_err );
+	m_clPositionArray = clCreateBuffer( m_context, CL_MEM_READ_WRITE, sizeof( int ) * 4 * seedPoints, NULL, &m_err );
+	m_clSampleArray = clCreateBuffer( m_context, CL_MEM_READ_WRITE, sizeof( float ) * datasetRaw->getNonZeroGradientIndexes().size() * global, NULL, &m_err );
+	m_clOdfArray = clCreateBuffer( m_context, CL_MEM_READ_WRITE, sizeof( float ) * m_reconstructionPoints.size() * global, NULL, &m_err );
+	m_clTest = clCreateBuffer( m_context, CL_MEM_WRITE_ONLY, sizeof( float ) * global, NULL, &m_err );
+	m_clPeaksArray = clCreateBuffer( m_context, CL_MEM_READ_WRITE, sizeof( short ) * m_reconstructionPoints.size() * global, NULL, &m_err );
+	m_clNeighbors = clCreateBuffer( m_context, CL_MEM_READ_ONLY, sizeof( ushort ) * m_neighbors.size() * 6, NULL, &m_err );
+	m_clMainDir = clCreateBuffer( m_context, CL_MEM_READ_WRITE, sizeof( float ) * 4 * 12 * global, NULL, &m_err );
+	m_clOldDirection = clCreateBuffer( m_context, CL_MEM_READ_WRITE, sizeof( float ) * 4 * global, NULL, &m_err );
+	wlog::debug( "GPU" ) << "Buffer created. Errorcode: " << m_err;
+
+	float *fiberOut = new float[ global ];
 	float *scalarOut = new float[ m_gridScalar->size() ];
 
 	cl_int4 *positionArray = new cl_int4[ seedPoints ];
@@ -312,7 +314,7 @@ std::pair<boost::shared_ptr< WDataSetFibers >, boost::shared_ptr< WDataSetScalar
 	m_err |= clEnqueueReadBuffer( m_command_queue, m_clTest, CL_TRUE, 0, sizeof( float ) * global, test, 0, NULL, NULL );
 	m_err |= clEnqueueReadBuffer( m_command_queue, m_clPeaksArray, CL_TRUE, 0, sizeof( short ) * m_reconstructionPoints.size() * global, peaksArray, 0, NULL, NULL );
 	m_err |= clEnqueueReadBuffer( m_command_queue, m_clMainDir, CL_TRUE, 0, sizeof( float ) * 4 * 12 * global, mainDir, 0, NULL, NULL );
-	m_err |= clEnqueueReadBuffer( m_command_queue, m_clFibers, CL_TRUE, 0, sizeof( float ) * vertices * global, fiberOut, 0, NULL, NULL );
+	m_err |= clEnqueueReadBuffer( m_command_queue, m_clFibers, CL_TRUE, 0, sizeof( float ) * global, fiberOut, 0, NULL, NULL );
 	m_err |= clEnqueueReadBuffer( m_command_queue, m_clScalarsOut, CL_TRUE, 0, sizeof( float ) * m_gridScalar->size(), scalarOut, 0, NULL, NULL );
 
 	// clean up
@@ -350,7 +352,7 @@ std::pair<boost::shared_ptr< WDataSetFibers >, boost::shared_ptr< WDataSetScalar
 
 	boost::shared_ptr< WDataSetFibers > fibers = m_fiberAcc.buildDataSet();
 
-	//releaseMemory();
+	releaseMemory();
 	delete fiberOut;
 	delete scalarOut;
 	delete positionArray;

@@ -193,7 +193,7 @@ __kernel void integrate( __global float *outputFibers, __global float *outputSca
 	//fill direction array
 	int count = 0;
 	for( int i=0; i<dimensions[2]; i++ ) {
-		if( odfArray[ i * get_global_size(0) + get_global_id(0) ] != -1 ) {
+		if( peaksArray[ i * get_global_size(0) + get_global_id(0) ] != -1 ) {
 			mainDirections[ count ] = peaksArray[ i * get_global_size(0) + get_global_id(0) ];
 			directionValues[ count ] = odfArray[ i * get_global_size(0) + get_global_id(0) ];
 			count++;
@@ -202,7 +202,7 @@ __kernel void integrate( __global float *outputFibers, __global float *outputSca
 
 	// sort arrays
 	bool swapped = true;
-	int n = 11;
+	int n = count;
 	while( swapped ) {
 		for( int i=n; i>0; i-- ) {
 			if( directionValues[i] > directionValues[i-1] ) {

@@ -10,7 +10,6 @@
 #include "WQBallAlgorithm.h"
 
 WQBallCPU::WQBallCPU():WObjectNDIP< WQBallAlgorithm >( "CPU", "QBall Tractography on CPU") {
-	m_parallel = false;
 	m_ready = false;
 
 
@@ -27,8 +26,9 @@ WQBallCPU::WQBallCPU():WObjectNDIP< WQBallAlgorithm >( "CPU", "QBall Tractograph
 
 	// fibers
     m_seedPoints = m_properties->addProperty( "Seed points", "Choose number of seed points", 1000, m_propCondition );
-    m_seedsPerVoxel = m_properties->addProperty( "Points per Voxel", "Seed points per Voxel", 1, m_propCondition );
     m_stepSize = m_properties->addProperty( "Step size", "Distance for Fibers", 0.5, m_propCondition );
+    m_stepSize->setMin(0.1);
+    m_stepSize->setMax(1.0);
     m_stepDistance = m_properties->addProperty( "Distance", "Step distance", 500, m_propCondition );
 
     // thresholds
@@ -41,9 +41,11 @@ WQBallCPU::WQBallCPU():WObjectNDIP< WQBallAlgorithm >( "CPU", "QBall Tractograph
     m_percentRange->setMax( 1.0 );
     m_degreeRange = m_properties->addProperty( "deg range", "accepted degrees", 45, m_propCondition );
 
+    m_toggleAdvanced = m_properties->addProperty( "Advanced", "Toggle advanced options",
+        WPVBaseTypes::PV_TRIGGER_READY, m_propCondition );
+
     m_fibers = m_properties->addPropertyGroup( "Fibers", "Fiber options" );
     	m_fibers->addProperty( m_seedPoints );
-    	m_fibers->addProperty( m_seedsPerVoxel );
     	m_fibers->addProperty( m_stepSize );
     m_thresholds = m_properties->addPropertyGroup( "Thresholds", "Conditions for stopping a fiber" );
     	m_thresholds->addProperty( m_fa );
@@ -52,54 +54,9 @@ WQBallCPU::WQBallCPU():WObjectNDIP< WQBallAlgorithm >( "CPU", "QBall Tractograph
     	m_odfThresh->addProperty( m_percentRange );
     	m_odfThresh->addProperty( m_degreeRange );
 
-	m_ready = true;
-
-}
-
-WQBallCPU::WQBallCPU( bool parallel ):WObjectNDIP< WQBallAlgorithm >( "CPU+", "QBall Tractography on CPU") {
-	m_parallel = true;
-	m_ready = false;
-
-
-	// properies
-	m_propCondition = boost::shared_ptr< WCondition >( new WCondition() );
-
-	// cores
-	m_cores = m_properties->addProperty( "Cores", "How many CPU cores should be used?", 1, m_propCondition );
-	m_cores->setMin( 1 );
-	m_cores->setMax( omp_get_max_threads() );
-	m_cores->setHidden( true );
-
-	m_enableSH = m_properties->addProperty( "Show SH", "Show Spherical Harmonic at position", false );
-	m_mainDir = m_properties->addProperty( "Main directions", "Main directions of corresponding SH", false );
-	// fibers
-    m_seedPoints = m_properties->addProperty( "Seed points", "Choose number of seed points", 1000, m_propCondition );
-    m_seedsPerVoxel = m_properties->addProperty( "Points per Voxel", "Seed points per Voxel", 1, m_propCondition );
-    m_stepSize = m_properties->addProperty( "Step size", "Distance for Fibers", 0.5, m_propCondition );
-    m_stepDistance = m_properties->addProperty( "Distance", "Step distance", 500, m_propCondition );
-
-    // thresholds
-    m_fa = m_properties->addProperty( "FA", "Min Fractional anisotropy", 0.05, m_propCondition );
-    m_curv = m_properties->addProperty( "Curvature", "Max Curvature", 75.0, m_propCondition );
-
-    // odf thresholds
-    m_percentRange = m_properties->addProperty( "% range", "accepted magnitudes", 0.33, m_propCondition );
-    m_percentRange->setMin( 0.0 );
-    m_percentRange->setMax( 1.0 );
-    m_degreeRange = m_properties->addProperty( "deg range", "accepted degrees", 45, m_propCondition );
-    m_degreeRange->setMin( 0 );
-    m_degreeRange->setMax( 90 );
-
-    m_fibers = m_properties->addPropertyGroup( "Fibers", "Fiber options" );
-    	m_fibers->addProperty( m_seedPoints );
-    	m_fibers->addProperty( m_seedsPerVoxel );
-    	m_fibers->addProperty( m_stepSize );
-    m_thresholds = m_properties->addPropertyGroup( "Thresholds", "Conditions for stopping a fiber" );
-    	m_thresholds->addProperty( m_fa );
-    	m_thresholds->addProperty( m_curv );
-    m_odfThresh = m_properties->addPropertyGroup( "Odf", "Options for ODF" );
-    	m_odfThresh->addProperty( m_percentRange );
-    	m_odfThresh->addProperty( m_degreeRange );
+    /*m_advanced = m_properties->addPropertyGroup( "Advanced", "Advanced options for Q-Ball Tracking", true );
+    	m_advanced->addProperty( m_thresholds );
+    	m_advanced->addProperty( m_odfThresh );*/
 
 	m_ready = true;
 
@@ -130,30 +87,16 @@ std::pair<boost::shared_ptr< WDataSetFibers >, boost::shared_ptr< WDataSetScalar
 
 	if( !m_enableSH->get() ) {
 
-		wlog::debug( "CPU" ) << m_seedPoints->get( true );
-		std::srand( std::time( NULL ) );
-		if( m_parallel ) {
-			if( m_parallel ) wlog::debug( "CPU+" ) << "parallel execution";
-			omp_set_num_threads( 6 );
-			#pragma omp parallel for schedule( dynamic )
-			for(size_t i=0; i<m_seedPoints->get( true ); i++) {
+		wlog::debug( "CPU" ) << "Computing on " << cores << " cores ";
+		omp_set_num_threads( cores );
+		#pragma omp parallel for schedule( dynamic )
+		for(size_t i=0; i<m_seedPoints->get( true ); i++) {
 
-				m_fiberAcc.add( algorithm( startPosition )->asVector() );
+			m_fiberAcc.add( algorithm( startPosition )->asVector() );
+			++*progress;
 
-				++*progress;
-			}
-		} else {
-			wlog::debug( "CPU" ) << "Computing on " << cores << " cores ";
-			omp_set_num_threads( cores );
-			#pragma omp parallel for schedule( dynamic )
-			for(size_t i=0; i<m_seedPoints->get( true ); i++) {
-
-				m_fiberAcc.add( algorithm( startPosition )->asVector() );
-
-				++*progress;
-			}
 		}
-		
+
 	}
 	progress->finish();
 	// TODO vllt weg
@@ -189,6 +132,17 @@ std::pair<boost::shared_ptr< WDataSetFibers >, boost::shared_ptr< WDataSetScalar
 		   	vertices.push_back( startPosition + ( normalize( m_reconstructionPoints.at( i ) ) * ( sh[i] / 1 ) ) );
 		   	m_fiberAcc.add( WFiber( vertices ).asVector() );
 		}
+	}
+
+	if( m_toggleAdvanced->get( true ) == WPVBaseTypes::PV_TRIGGER_READY, false ) {
+		m_advanced->setHidden( !m_stepDistance->isHidden() );
+		m_advanced->setHidden( !m_fa->isHidden() );
+		m_advanced->setHidden( !m_curv->isHidden() );
+		m_advanced->setHidden( !m_percentRange->isHidden() );
+		m_advanced->setHidden( !m_degreeRange->isHidden() );
+
+
+		m_toggleAdvanced->set( WPVBaseTypes::PV_TRIGGER_READY, false );
 	}
 
 
@@ -338,7 +292,7 @@ void WQBallCPU::getPeaks( WValue< double > &sample, std::vector< int > &peaks ) 
 				if( abs( sample[ i ] ) < abs( sample[ m_neighbors.at( i )[ j ] ] ) ) isLocalMax = false;
 			}
 			//		check 33% range
-			//if( isLocalMax && abs( sample[ i ] ) < abs( sample[ maxIndex ] ) * ( 1.0 - percentRange ) ) isLocalMax = false;
+			if( isLocalMax && abs( sample[ i ] ) < abs( sample[ maxIndex ] ) * ( 1.0 - percentRange ) ) isLocalMax = false;
 			//		check angle
 			if( isLocalMax ) {
 				for( size_t j=0; j<peaks.size(); j++ ) {

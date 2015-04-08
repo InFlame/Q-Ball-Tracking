@@ -85,7 +85,6 @@ private:
     /* strategies */
     WStrategyHelper< WObjectNDIP< WQBallAlgorithm > > m_strategy;
     WQBallCPU::SPtr m_qBallCPU;
-    WQBallCPU::SPtr m_qBallCPU_parallel;
     WQBallGPU::SPtr m_qBallGPU;
 
     /* drawing */
